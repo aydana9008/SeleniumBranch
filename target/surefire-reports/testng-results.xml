@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="33851" started-at="2018-12-07T18:56:42Z" finished-at="2018-12-07T18:57:15Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="33851" started-at="2018-12-07T18:56:42Z" finished-at="2018-12-07T18:57:15Z">
+      <class name="mavenProject.websiteTest">
+        <test-method status="PASS" signature="findTechJobs(java.lang.String, java.lang.String)[pri:0, instance:mavenProject.websiteTest@68837a77]" name="findTechJobs" duration-ms="4787" started-at="2018-12-07T18:57:00Z" data-provider="getData" finished-at="2018-12-07T18:57:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Java Developer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findTechJobs -->
+        <test-method status="PASS" signature="findTechJobs(java.lang.String, java.lang.String)[pri:0, instance:mavenProject.websiteTest@68837a77]" name="findTechJobs" duration-ms="4456" started-at="2018-12-07T18:57:04Z" data-provider="getData" finished-at="2018-12-07T18:57:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[JavaScript Developer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findTechJobs -->
+        <test-method status="PASS" signature="findTechJobs(java.lang.String, java.lang.String)[pri:0, instance:mavenProject.websiteTest@68837a77]" name="findTechJobs" duration-ms="5070" started-at="2018-12-07T18:57:09Z" data-provider="getData" finished-at="2018-12-07T18:57:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ruby Developer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findTechJobs -->
+      </class> <!-- mavenProject.websiteTest -->
+      <class name="mavenProject.OzzyTaskTest">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:mavenProject.OzzyTaskTest@2d554825]" name="invokeBrowser" is-config="true" duration-ms="5646" started-at="2018-12-07T18:56:42Z" finished-at="2018-12-07T18:56:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:mavenProject.websiteTest@68837a77]" name="invokeBrowser" is-config="true" duration-ms="8350" started-at="2018-12-07T18:56:47Z" finished-at="2018-12-07T18:56:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:mavenProject.OzzyTaskTest@2d554825]" name="Login" duration-ms="3935" started-at="2018-12-07T18:56:56Z" finished-at="2018-12-07T18:57:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:mavenProject.OzzyTaskTest@2d554825]" name="closeBrowser" is-config="true" duration-ms="746" started-at="2018-12-07T18:57:14Z" finished-at="2018-12-07T18:57:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:mavenProject.websiteTest@68837a77]" name="closeBrowser" is-config="true" duration-ms="828" started-at="2018-12-07T18:57:15Z" finished-at="2018-12-07T18:57:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- mavenProject.OzzyTaskTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
