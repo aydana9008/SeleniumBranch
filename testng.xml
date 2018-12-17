@@ -5,6 +5,7 @@
     <classes>
       <class name="mavenProject.checkTest"/>
       <class name = "mavenProject.OzzyTaskTest" />
+      <class name="mavenProject.websiteTest" />
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
